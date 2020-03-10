@@ -21,16 +21,19 @@ def Forest():
 
     if woodtool == "sword": cave1 = input("you craft a wood sword and realize that its worse than the rusty one you have. So, you get more wood and make a pickaxe. Would you like to go mining?")
 
-    if: cave1 = input(" You built your pickaxe, and you remember you saw a mine when you were breaking the tree down. Will you go mining? ")
-
-    else: buildhome = input("you decide to not go mining, instead you gather materials and food for later.") 
+    else: woodtool == input(" You built your pickaxe, and you remember you saw a mine when you were breaking the tree down. Will you go mining? ")
 
     if cave1 == "yes": deepcave =input("you got some cobble stone and made a better pickaxe, would you like to go further?")
 
+    else: buildhome = input("you decide to not go mining, instead you gather materials and food for later.") 
+
     if deepcave == "yes": print("You go further and find some iron to mine. its a dead end and you leave the cave")
+
     buildhome = input(" You finished mining and killed a chicken for some food would you like to build a house and sleep?" )
 
     if buildhome == "yes": print( "You built a small house and used the wool from a sheep to make a small bed, You decide its time for bed and got to sleep")
-    else: 
+
+    else: print( "Oof, It looks like you got ambushed by a creeper! Better luck next time")
+     
 Forest()
 
