@@ -16,7 +16,7 @@ def Forest():
 
     if woodtool == "sword": cave1 = input("you craft a wood sword and realize that its worse than the rusty one you have. So, you get more wood and make a pickaxe. Would you like to go mining?")
 
-    else woodtool:  == input(" You built your pickaxe, and you remember you saw a mine when you were breaking the tree down. Will you go mining? ")
+    else:  cave1 = input(" You built your pickaxe, and you remember you saw a mine when you were breaking the tree down. Will you go mining? ")
 
     if cave1 == "yes": deepcave =input("you got some cobble stone and made a better pickaxe, would you like to go further?")
 
@@ -34,3 +34,23 @@ def Forest():
     else: print(" Goodbye")
 Forest()
 
+def diamonds():
+    mine2 = input(" You wake up from a night of rest and grab some food. You decide to do some mining to get a better sword and armor. Will you go strip of cave mining?")
+    if mine2 == "cave": print("in total you found 9 diamonds. You made a diamond chestplate and have one left to make a shovel.")
+    else: print("You Found 29 diamonds! thats enough for armor, a sword and a pickaxe.")
+
+    diamonds()
+
+def end():
+    end = input("After you went mining you gather extra resources to make a bow and an enchantment table. Will you wait a few days and gather experience or go to the end now")
+    if end == "wait": food = input("you found some pigs and cows. Will you breed them to get more food or kill them now and find more later?")
+    if food == "breed": print(" you got tons of food and are good on food for a while")
+    else: print("you have half a stack of food")
+    
+
+    if end == "go": halfheart = input("You Have 1/2 a heart the dragon it almost full and you have no food what will you do? Run for it? or Fight?")
+    if halfheart == "run": print("you got sniped by a fireball")
+        print("you died")
+    else: print("you found a gold apple and you somehow beat the Dragon!")
+        print("Congrats")
+    
